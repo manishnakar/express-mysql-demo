@@ -1,0 +1,11 @@
+{
+   "name": "express-mysql",
+   "version": "0.0.1",
+   "dependencies": {
+     "express": "*",
+     "mysql": "*",
+     "jade": "*",
+     "mysql": "*",
+     "async": "*"
+   }
+ }
