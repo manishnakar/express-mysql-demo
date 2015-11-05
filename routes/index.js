@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var express = require('express');
 var router = express.Router();
 
@@ -7,3 +8,13 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+=======
+
+/*
+ * GET home page.
+ */
+
+exports.index = function(req, res){
+  res.render('index', { title: 'Express' });
+};
+>>>>>>> 542fcc46d840e808beb828cacf014b6aee2c1dca
